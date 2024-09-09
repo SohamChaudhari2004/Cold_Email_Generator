@@ -103,7 +103,9 @@ Start the Streamlit application by running:
 
 bash
 Copy code
+```
 streamlit run app/main.py
+```
 This command will launch the app, and it will be accessible at http://localhost:8501 in your web browser.
 
 ## Troubleshooting
@@ -111,13 +113,4 @@ Virtual Environment Not Set Up: If you don't want to use a virtual environment, 
 <br>
 <br>
 User Agent Warning: If you see a warning about the USER_AGENT environment variable not being set, you can ignore it or set it explicitly in your .env file.
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Contributing
-If you would like to contribute, please open a pull request or submit an issue on GitHub.
-
-## Acknowledgements:
-Thanks to LangChain for the language model support.
-<br>
-Icons by Streamlit.

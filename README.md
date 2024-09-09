@@ -2,6 +2,13 @@
 
 This project is a Cold Email Generator that uses web scraping and language models to generate personalized cold emails based on job listings from various websites.
 
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/c10cd89f-f5e9-4b89-84a4-363c5ee26cb8)
+#### -----------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/06c6fbf8-70b9-43fd-9bc9-3e2202d51f8c)
+
+
 ## Features
 
 - Scrapes job details from a provided URL.
@@ -53,10 +60,18 @@ source venv/bin/activate
 
 Install the required dependencies using the requirements.txt file:
 
-bash:
+Bash:
 
 ```
 pip install -r requirements.txt
+```
+
+OR
+
+Install globally on loacal system
+Command Prompt:
+```
+pip install langchain langchain_community langchain_groq chromadb pandas python-dotenv unstructured selenium
 ```
 
 <br>

@@ -2,6 +2,14 @@
 
 This project is a Cold Email Generator that uses web scraping and language models to generate personalized cold emails based on job listings from various websites.
 
+## Live Project at :
+
+https://cold-email-generator-vj9l.onrender.com/
+```
+ warning:
+ The instance may take longer to load. 
+ Please wait if it does not load immediately.
+```
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/c10cd89f-f5e9-4b89-84a4-363c5ee26cb8)

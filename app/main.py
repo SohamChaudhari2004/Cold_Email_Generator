@@ -7,8 +7,8 @@ from utils import clean_text
 
 def create_streamlit_app(llm, portfolio, clean_text):
     st.title("📧 Cold Mail Generator")
-    url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-37999")
-    submit_button = st.button("Submit")
+    url_input = st.text_input("Enter a URL of a carrer page or a job portal:", value="https://jobs.nike.com/job/R-37999")
+    submit_button = st.button("Write a Cold Email")
 
     if submit_button:
         try:
@@ -20,7 +20,7 @@ def create_streamlit_app(llm, portfolio, clean_text):
                 skills = job.get('skills', [])
                 links = portfolio.query_links(skills)
                 email = llm.write_mail(job, links)
-                st.code(email, language='markdown')
+                st.code(email, language='markdown',wrap_lines=True)
         except Exception as e:
             st.error(f"An Error Occurred: {e}")
 

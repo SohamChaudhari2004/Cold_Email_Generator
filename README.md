@@ -2,6 +2,13 @@
 
 This project is a Cold Email Generator that uses web scraping and language models to generate personalized cold emails based on job listings from various websites.
 
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/c10cd89f-f5e9-4b89-84a4-363c5ee26cb8)
+#### -----------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/06c6fbf8-70b9-43fd-9bc9-3e2202d51f8c)
+
+
 ## Features
 
 - Scrapes job details from a provided URL.
@@ -53,10 +60,18 @@ source venv/bin/activate
 
 Install the required dependencies using the requirements.txt file:
 
-bash:
+Bash:
 
 ```
 pip install -r requirements.txt
+```
+
+OR
+
+Install globally on loacal system
+Command Prompt:
+```
+pip install langchain langchain_community langchain_groq chromadb pandas python-dotenv unstructured selenium
 ```
 
 <br>
@@ -88,7 +103,9 @@ Start the Streamlit application by running:
 
 bash
 Copy code
+```
 streamlit run app/main.py
+```
 This command will launch the app, and it will be accessible at http://localhost:8501 in your web browser.
 
 ## Troubleshooting
@@ -96,13 +113,4 @@ Virtual Environment Not Set Up: If you don't want to use a virtual environment, 
 <br>
 <br>
 User Agent Warning: If you see a warning about the USER_AGENT environment variable not being set, you can ignore it or set it explicitly in your .env file.
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Contributing
-If you would like to contribute, please open a pull request or submit an issue on GitHub.
-
-## Acknowledgements:
-Thanks to LangChain for the language model support.
-<br>
-Icons by Streamlit.
